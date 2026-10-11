@@ -13,7 +13,7 @@ Start with the first guide. Use the second only if you want to run Claude Code w
 
 ## Data needed
 
-None for this session. The Methods one data folder holds the HadCRUT5 dataset, [`data/01/hadcrut5/`](../../data/01/hadcrut5/), for use in the practicals.
+None for this session. The Methods one data folder holds the HadCRUT5 dataset, [`data/01_methods/hadcrut5/`](../../data/01_methods/hadcrut5/), for use in the practicals.
 
 ## How to run
 
