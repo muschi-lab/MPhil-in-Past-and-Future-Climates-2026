@@ -37,6 +37,14 @@ If you prefer `pip`, create a virtual environment and run `pip install -r requir
 | `environment.yml` | Conda environment used for all practicals |
 | `requirements.txt` | The same packages for `pip` users |
 
+### Large files
+
+Larger datasets are not stored in this repository. They are in a shared Google Drive folder:
+
+**[Large data files (Google Drive)](https://drive.google.com/drive/folders/1twf3I61XYz9OJd5w4TMSsBQ7c2f5sMUO?usp=sharing)**
+
+Group-exercise datasets are in the "Group-exercise datasets" subfolder of that folder. Download the file you need and place it in the matching `data/<dataset-name>/` folder. Each dataset's `README.md` says where it belongs. See [`data/README.md`](data/README.md) for the full list.
+
 ## How to use a practical
 
 1. Open the practical's folder in `practicals/` and read its `README.md` first.
