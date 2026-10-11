@@ -1,0 +1,16 @@
+name: pfc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - statsmodels
+  - scikit-learn
+  - jupyterlab
+  - ipykernel

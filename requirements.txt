@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+xarray
+netCDF4
+matplotlib
+cartopy
+statsmodels
+scikit-learn
+jupyterlab
+ipykernel
