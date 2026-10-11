@@ -8,4 +8,4 @@ One folder per numerical practical, named `01_topic`, `02_topic` and so on. Each
 
 | Practical | Topic | Status |
 | --- | --- | --- |
-| *(to be added)* | | |
+| [`01_methods_one`](01_methods_one/) | Getting started with Claude (desktop app, VS Code, terminal, Ollama) | Materials available |

@@ -43,12 +43,12 @@ Larger datasets are not stored in this repository. They are in a shared Google D
 
 **[Large data files (Google Drive)](https://drive.google.com/drive/folders/1twf3I61XYz9OJd5w4TMSsBQ7c2f5sMUO?usp=sharing)**
 
-Group-exercise datasets are in the "Group-exercise datasets" subfolder of that folder. Download the file you need and place it in the matching `data/<dataset-name>/` folder. Each dataset's `README.md` says where it belongs. See [`data/README.md`](data/README.md) for the full list.
+Group-exercise datasets are in the "Group-exercise datasets" subfolder of that folder. Download the file you need and place it in the matching `data/<session>/<dataset-name>/` folder. Each dataset's `README.md` says where it belongs. See [`data/README.md`](data/README.md) for the full list.
 
 ## How to use a practical
 
 1. Open the practical's folder in `practicals/` and read its `README.md` first.
-2. Run the scripts or notebooks from inside that folder, so relative paths to `../../data` work.
+2. Run the scripts or notebooks from inside that folder. Data for a session sits in `data/<session>/`, so a script refers to it as `../../data/<session>/<dataset-name>/`.
 3. Work on a copy of any script you want to change, so `git pull` does not clash with your edits.
 
 ## Questions

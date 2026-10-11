@@ -35,4 +35,4 @@ Local copy dated 2026-06-08. Download date to confirm.
 
 ## Used in
 
-Not yet assigned to a practical.
+Methods one data folder (`data/01_methods_one/hadcrut5/`). Not yet linked to a specific practical exercise.
