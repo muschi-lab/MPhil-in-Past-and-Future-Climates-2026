@@ -4,7 +4,7 @@ Annual global, Northern Hemisphere and Southern Hemisphere surface temperature a
 
 ## File
 
-`hadcrut5.csv` (186 data rows, one per year, plus a header)
+`hadcrut5.csv` (annual values for 1850–2025, comma-separated, with a header row). Treat it as raw input and check it before analysis.
 
 | Column | Description | Units |
 | --- | --- | --- |
