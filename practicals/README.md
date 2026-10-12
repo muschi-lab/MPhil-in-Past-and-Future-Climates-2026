@@ -8,4 +8,4 @@ One folder per numerical practical or Methods session, named with a two-digit nu
 
 | Practical | Topic | Status |
 | --- | --- | --- |
-| [`01_methods`](01_methods/) | Getting started with Claude (desktop app, VS Code, terminal, Ollama) | Materials available |
+| [`01_methods`](01_methods/) | Getting started with Claude (desktop app, VS Code, terminal) and local models with Ollama | Materials available |
