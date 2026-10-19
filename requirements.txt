@@ -9,3 +9,8 @@ statsmodels
 scikit-learn
 jupyterlab
 ipykernel
+numba
+dask
+pyleoclim==1.2.1
+pylipd==1.5.3
+xeofs==3.0.4

@@ -14,3 +14,7 @@ Thumbs.db
 # Student outputs
 outputs/
 *.log
+
+# Instructor-only files (never commit)
+*_SOLUTIONS*.ipynb
+INSTRUCTOR*

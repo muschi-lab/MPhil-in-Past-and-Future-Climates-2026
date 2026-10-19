@@ -3,8 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - numpy
-  - scipy
+  - numpy<2        # pyleoclim 1.2.1 needs numpy below 2
+  - scipy<1.16     # and scipy below 1.16
   - pandas
   - xarray
   - netcdf4
@@ -14,3 +14,12 @@ dependencies:
   - scikit-learn
   - jupyterlab
   - ipykernel
+  # added for 02_methods (numba/llvmlite/dask come from conda-forge so pip never has to compile them)
+  - numba
+  - llvmlite
+  - dask
+  - pip
+  - pip:
+      - pyleoclim==1.2.1
+      - pylipd==1.5.3
+      - xeofs==3.0.4

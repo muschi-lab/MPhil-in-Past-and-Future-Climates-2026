@@ -6,7 +6,7 @@ Python scripts, guides and datasets for the numerical practicals of the MPhil in
 
 ## Get the materials
 
-**Option A: download a ZIP (no Git needed).** Click the green **Code** button at the top of this page, then **Download ZIP**, and unzip it somewhere you can find it, for example `Documents/PastFutureClimates`.
+**Option A: download a ZIP (no Git needed).** Click the green **Code** button at the top of this page, then **Download ZIP**, and unzip it somewhere you can find it, for example `PastFutureClimates` in your home folder.
 
 **Option B: clone with Git.** In a terminal:
 
@@ -26,6 +26,8 @@ conda activate pfc
 jupyter lab
 ```
 
+Already set up from an earlier practical? After a `git pull`, add the new packages with `conda env update -f environment.yml`, then `conda activate pfc`.
+
 If you prefer `pip`, create a virtual environment and run `pip install -r requirements.txt`.
 
 ## What is in this repository
@@ -34,6 +36,7 @@ If you prefer `pip`, create a virtual environment and run `pip install -r requir
 | --- | --- |
 | `practicals/` | One folder per numerical practical, each with its own README, scripts and notebooks |
 | `data/` | Datasets used in the practicals (see `data/README.md`) |
+| `scripts/` | Small scripts that record how a dataset was prepared (for example `make_subsets.py`) |
 | `environment.yml` | Conda environment used for all practicals |
 | `requirements.txt` | The same packages for `pip` users |
 
