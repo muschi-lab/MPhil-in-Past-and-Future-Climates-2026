@@ -10,3 +10,4 @@ One folder per numerical practical or Methods session, named with a two-digit nu
 | --- | --- | --- |
 | [`01_methods`](01_methods/) | Getting started with Claude (desktop app, VS Code, terminal) and local models with Ollama | Materials available |
 | [`02_methods`](02_methods/) | Computational techniques for paleoclimate research: LiPD data, PCA and EOF with corals and ENSO, power spectra | Materials available |
+| [`03_methods`](03_methods/) | Introduction to Bayesian modelling: Bayes' theorem, conjugate priors and a hand-written MCMC sampler (glacier melt); group tasks on warming rate, abrupt-change timing and sea-ice forecasting | Materials available |
